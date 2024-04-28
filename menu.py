@@ -1,5 +1,8 @@
 """DESAFIO Sistema de Caixa Eletrônico"""
 
+from os import system
+from time import sleep
+
 MENU = """
 
 [1] Depositar
@@ -66,3 +69,6 @@ while True:
 
     else:
         print("Operação inválida, por favor selecione novamente a operação desejada.")
+        sleep(5)
+    sleep(2)
+    system("clear")
