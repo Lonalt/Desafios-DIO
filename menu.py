@@ -1,4 +1,4 @@
-"""DESAFIO Sistema de Caixa Eletrônico"""
+"""DESAFIO SISTEMA BANCÁRIO"""
 
 from os import system
 from time import sleep
